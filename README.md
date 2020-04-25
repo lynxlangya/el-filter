@@ -21,7 +21,7 @@ Vue.use(ElementUI);
 Vue.use(ElFilter);
 
 new Vue({
-  render: h => h(Test),
+  render: h => h(App),
 }).$mount('#app')
 ```
 
