@@ -107,6 +107,13 @@ methods: {
 **按钮配置项示例:**
 
 ```js
+// 示例
+btnStyle: [
+  { icon: 'el-icon-search', text: '过滤',type: 'primary' },
+  { icon: 'el-icon-refresh', text: '重置' }
+]
+
+// 组件接受参数值
 btnStyle: {
   type: Array,
   default: () => [
