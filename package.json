@@ -1,11 +1,16 @@
 {
   "name": "el-filter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "author": "wangdao <wangdaoo66@gmail.com>",
   "description": "vue + element 中后台管理系统搜索组件",
   "license": "MIT",
-  "keywords": ["el-filter", "filter", "search", "el-search"],
+  "keywords": [
+    "el-filter",
+    "filter",
+    "search",
+    "el-search"
+  ],
   "main": "./dist/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
