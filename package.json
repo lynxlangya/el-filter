@@ -11,12 +11,16 @@
     "search",
     "el-search"
   ],
-  "main": "./dist/index.js",
+  "main": "lib/el-filter.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "lib": "vue-cli-service build --target lib --name el-filter --dest lib ./packages/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wangdaoo/el-filter"
   },
   "dependencies": {
     "core-js": "^3.6.4",

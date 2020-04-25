@@ -60,14 +60,14 @@ data: () => ({
       { label: '日期', type: 'date', value: 'date' },
       { label: '创建时间', type: 'date', value: 'dateTime', dateType: 'datetime', clearable: true  },
       { label: '时间区间', type: 'date', value: 'range', dateType: 'daterange' }
-    ],
-    listTypeInfo: {
-      sexList: [
-        { id: 1, name: '男' },
-        { id: 2, name: '女' },
-        { id: 3, name: '保密' },
-      ]
-    }
+    ]
+  },
+  listTypeInfo: {
+    sexList: [
+      { id: 1, name: '男' },
+      { id: 2, name: '女' },
+      { id: 3, name: '保密' },
+    ]
   }
 }),
 

@@ -1,13 +1,14 @@
 # 忽略目录
 .DS_Store
 public/
-src/
+examples/
+packages/
 
 # 忽略指定文件
 .gitignore
 babel.config.js
-package-lock.json
 vue.config.js
+*.map
 
 
 # local env files
