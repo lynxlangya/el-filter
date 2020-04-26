@@ -9,7 +9,7 @@ cache:
 
 install: npm install
 
-script: npm run lib && npm run patch && npm publish
+script: npm run lib && npm version patch && npm publish
 
 branches:
   only:
