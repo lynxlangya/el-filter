@@ -4,6 +4,7 @@ node_js:
   - "12"
 
 script:
+  - npm install
   - npm run lib
   - npm run patch
   - npm publish
