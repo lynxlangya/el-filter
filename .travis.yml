@@ -1,10 +1,16 @@
 language: node_js
 
 node_js:
-  - "12"
+  - v12.16.2
 
-script:
-  - npm install
-  - npm run lib
-  - npm run patch
-  - npm publish
+cache:
+  directories:
+  - node_modules
+
+install: true
+
+script: npm run lib && npm run patch && npm publish
+
+branches:
+  only:
+  - master
