@@ -1,6 +1,6 @@
 {
   "name": "el-filter",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "private": false,
   "author": "wangdao <wangdaoo66@gmail.com>",
   "description": "vue + element 中后台管理系统搜索组件",
