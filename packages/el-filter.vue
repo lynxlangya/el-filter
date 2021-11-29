@@ -117,19 +117,17 @@ export default {
     /**字段默认数据 */
     data: {
       type: Object,
-      default: () => {},
-      required: true
+      default: () => ({})
     },
     /**字段配置项 */
     fieldList: {
       type: Array,
-      default: () => [],
-      required: true
+      default: () => []
     },
     /**相关的列表 */
     listTypeInfo: {
       type: Object,
-      default: () => {}
+      default: () => ({}),
     },
     /**按钮区域是否隐藏 */
     btnHidden: {
