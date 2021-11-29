@@ -99,6 +99,7 @@ methods: {
 | fieldList | [] | Array | 必传 | 字段配置项 |
 | listTypeInfo | Object | Object | 非必传 | 下拉列表数据集 |
 | btnHidden | false | Boolean | 非必传 | 按钮区域是否隐藏 |
+| foldBtnHidden | false | Boolean | 非必传 | 是否取消折叠功能 |
 | size | mini | String | 非必传 | 组件尺寸 |
 | count | 4 | Number | 非必传 | 默认搜索条数 |
 | width | {labelWidth: 110, itemWidth: 220} | Object | 非必传 | 组件及label宽度 |
