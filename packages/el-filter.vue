@@ -112,7 +112,7 @@
  * @copyright 🤝2020 尽人事, 行王道
  */
 export default {
-  name: 'myFilter',
+  name: 'ElFilter',
   props: {
     /**字段默认数据 */
     data: {
