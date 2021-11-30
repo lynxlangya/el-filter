@@ -165,10 +165,12 @@ export default {
       ]
     }
   },
-  data: () => ({
-    defaultData: {},
-    icon: 'close'
-  }),
+  data() {
+    return {
+      defaultData: {},
+      icon: 'close'
+    }
+  },
   mounted () {
     /**
      * 子组件无法直接修改父组件传递过来的值
